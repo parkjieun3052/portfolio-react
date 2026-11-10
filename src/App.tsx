@@ -211,6 +211,9 @@ function App() {
         <button type="button" className="menu-trigger" onClick={() => setSidebarOpen(true)}>
           메뉴
         </button>
+        <button type="button" className="secondary-btn" onClick={() => setPage('main')}>
+          뒤로가기
+        </button>
       </header>
       <main className="profile-page">
         <div className="profile-container">
@@ -239,6 +242,9 @@ function App() {
       <header className="topbar with-space">
         <button type="button" className="menu-trigger" onClick={() => setSidebarOpen(true)}>
           메뉴
+        </button>
+        <button type="button" className="secondary-btn" onClick={() => setPage('main')}>
+          뒤로가기
         </button>
       </header>
       <main className="blog-page">
